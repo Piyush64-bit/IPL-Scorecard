@@ -219,3 +219,83 @@ body {
     padding: 10px;
     opacity: 0.6;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container {
+        width: 95vw;
+        padding: 10px;
+    }
+
+    .top-container,
+    .second-top-container {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .dc-container,
+    .rc-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .dc, .rc {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dc-container img,
+    .rc-container img {
+        width: 20vw;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .row-1,
+    .row-2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .winner-container,
+    .footer {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .TataIPL {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .views-container {
+        position: static;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .logo img {
+        width: 30vw;
+    }
+
+    .rr-logo img,
+    .dc-logo img {
+        width: 20vw;
+    }
+}
+
