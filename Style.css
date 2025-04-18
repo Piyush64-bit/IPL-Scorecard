@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+.BG-Image-Container {
+    background-image: url(./Assets/BG-IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
+}
+
+.logo img {
+    height: auto;
+    width: 10vw;
+}
+
+.container {
+    display: flex;
+}
+
+.main-container {
+    background-color: #2B8DF2;
+    padding: 0px 5px 0px 10px;
+    height: auto;
+    width: 80vw;
+}
+
+.top-container {
+    background: linear-gradient(to right, #202744, #173A82);
+    padding: 30px 100px 0px 10px;
+    font-size: 25px;
+    color: #B7BACB;
+}
+
+.second-top-container {
+    background: linear-gradient(to right, #163C87, #131C2B);
+    padding: 20px 100px 20px 10px;
+    margin-top: 2px;
+    font-size: 30px;
+    text-shadow: black;
+}
+
+.Second-BG-Colour {
+    background: linear-gradient(to right, #223674, #1D2343);
+}
+
+.dc-container img {
+    height: 10vh;
+    width: auto;
+    align-items: center;
+}
+
+.dc-container {
+    background: linear-gradient(to right, #237BD6, #111224);
+    padding-top: 5px;
+    margin-top: 2px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dc-container h1 {
+    display: inline;
+    color: #3BC2F1;
+    font-size: 30px;
+}
+
+.dc-container p {
+    display: inline;
+    text-align: end;
+}
+
+.current-score {
+    text-align: end;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #215C9F, #171A33);
+    width: 50%;
+    margin: 2px 2px 2px 0px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #161C36, #A9466C);
+    width: 50%;
+    margin: 2px 2px 2px 0px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+
+.red-font {
+    color: red;
+    font-size: 10px;
+}
+
+.font-size-small {
+    font-size: 20px;
+    color: #B7BACB;
+}
+
+.rc-container {
+    background: linear-gradient(to right, #EF6490, #111221);
+    padding-top: 5px;
+    margin-top: 2px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rc-container img {
+    height: auto;
+    width: 3vw;
+    align-items: center;
+}
+
+.rc-container h1 {
+    display: inline;
+    color: #EF82C1;
+    font-size: 30px;
+}
+
+.rc-container p {
+    display: inline;
+    text-align: end;
+}
+
+.winner-container {
+    background: linear-gradient(to right, #10171C, #1F3E7D);
+    padding: 10px;
+    margin-top: 2px;
+    width: 70%;
+}
+
+.winner-container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.views-container {
+    font-weight: 600;
+    position: absolute;
+    left: 1360px;
+    top: 35px;
+}
+
+.views-container span {
+    background-color: rgba(119, 136, 153, 0.474);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    background: linear-gradient(to right, #2F8CF1, #F36593);
+    justify-content: space-around;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.dc-logo img {
+    height: 10vh;
+    width: auto;
+}
+
+.rr-logo img {
+    height: auto;
+    width: 3vw;
+}
+
+.TataIPL {
+    font-size: 40px;
+}
