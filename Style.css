@@ -64,9 +64,16 @@ body {
     margin-top: 2px;
     width: 70%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
+
+.dc {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .dc-container h1 {
     display: inline;
@@ -81,6 +88,10 @@ body {
 
 .current-score {
     text-align: end;
+}
+
+#white {
+    color: white;
 }
 
 .box {
@@ -122,7 +133,7 @@ body {
 
 .rc-container {
     background: linear-gradient(to right, #EF6490, #111221);
-    padding-top: 5px;
+    padding: 5px;
     margin-top: 2px;
     width: 70%;
     display: flex;
@@ -145,6 +156,13 @@ body {
 .rc-container p {
     display: inline;
     text-align: end;
+}
+
+.rc {
+    width: 
+    95%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .winner-container {
@@ -193,3 +211,11 @@ body {
 .TataIPL {
     font-size: 40px;
 }
+
+.watermark {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+    padding: 10px;
+    opacity: 0.6;
+  }
